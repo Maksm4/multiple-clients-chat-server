@@ -2,7 +2,6 @@ package clientApp;
 
 import java.io.*;
 import java.net.Socket;
-import java.nio.Buffer;
 import java.util.Scanner;
 
 public class Client implements Runnable{

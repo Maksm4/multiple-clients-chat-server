@@ -33,7 +33,7 @@ public class ChatServer implements Runnable {
 
 
         } catch (IOException e) {
-            //TODO: handle
+            throw new RuntimeException();
         } finally {
             try {
                 server.close();
@@ -76,7 +76,7 @@ public class ChatServer implements Runnable {
 
 
             } catch (IOException e) {
-                //TODO: handle
+                throw new RuntimeException();
             } finally {
                 try {
                     in.close();
